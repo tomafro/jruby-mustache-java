@@ -1,0 +1,7 @@
+Very basic hack to get mustache.java working using jruby, for Dan Webb.
+
+To run the code, with jruby run:
+
+    jruby example.rb
+
+There are two examples.  The first uses a java.io.StringWriter to collect the rendered template, while the second uses a ruby subclass of java.io.Writer, as a proof of concept showing such a thing is possible.
